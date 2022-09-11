@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+
+    margin: 1px;
+    padding-right: 3px;
+}
+
+#marquee{
+    background-color: #111;
+    font-weight: 400;
+    color: white;
+}
+
+#inner-marquee{
+    padding: 0 25%;
+}
+
+/* First-Navbar Start */
+
+.first-navbar{
+   
+    display: flex;
+    margin: 1.5rem 2rem ;
+    width: 100vw;
+    
+}
+
+.first-navbar ul ,.first-navbar ul div {
+    display: flex;
+    
+}
+
+.first-navbar ul div{
+    margin-left:18% ;
+    width: 80vw;
+    
+}
+
+.first-navbar ul div li{
+
+    
+    margin-inline-end: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+   
+}
+
+.first-navbar ul div li i{
+
+    font-size: 2rem;
+  
+}
+.first-navbar ul div li p{
+
+    text-align: center;
+    width: 3.5rem;
+  
+}
+
+
+.first-navbar ul li {
+    list-style: none;
+    
+    
+}
+
+.first-navbar ul li form input {
+    
+    width: 22rem;
+    height: 3.3rem;
+
+}
+
+
+
+#first-navbar-image{
+    width: 7.5rem;
+    cursor: pointer;
+}
+
+/* First-Navbar Done */
+
+/* Second-Navbar Start */
+
+.second-navbar{
+    width: 100vw;
+    padding: .2rem 5%;
+}
+
+.second-navbar ul{
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.second-navbar ul li{
+ 
+    font-size: 1.4rem;
+    list-style: none;
+    padding: 0 1rem;
+    font-weight: 500;
+ 
+}
+
+.second-navbar ul li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.men-sub-navbar , .women-sub-navbar ,.lingerie-sub-navbar{
+    background-color:#fff;
+    color: #111;
+    display: none;
+    height: auto;
+    flex-direction: column;
+    
+
+}
+
+.men-sub-navbar ul, .women-sub-navbar ul, .lingerie-sub-navbar ul{
+    
+  display: block;
+   
+}
+
+.men-sub-navbar ul li , .women-sub-navbar ul li  , .lingerie-sub-navbar ul li{
+    
+    position: relative;
+    right: 3rem;
+    padding-top:1rem ;
+
+
+}
+
+.second-navbar ul li:hover .men-sub-navbar,  .second-navbar ul li:hover .women-sub-navbar, .second-navbar ul li:hover .lingerie-sub-navbar, .second-navbar ul li:hover .kids-sub-navbar, .second-navbar ul li:hover .home-sub-navbar, .second-navbar ul li:hover .beauty-sub-navbar, .second-navbar ul li:hover .offer-sub-navbar, .second-navbar ul li:hover .inspire-me-sub-navbar, .second-navbar ul li:hover .ms-club-sub-navbar{
+    
+    display: block;
+    position: absolute;
+    margin-top: .2rem;
+    z-index: 3;
+
+
+}
+
+.border li :hover{
+    border-bottom: 2px solid #111;
+}
+
+
+
+/* Second-navbar Done */
+
+
+/* Home-Carousal Start */
+#carouselExampleIndicators{
+    position: relative;
+    z-index: -1;
+}
+
+.buttons{
+    position: relative;
+    bottom: 10rem;
+}
+
+.buttons .btn{
+   margin: 0 .5rem 0 .5rem;
+}
+
+
+
+/* Home-Carousal End */
+
+
+section{
+    margin: 6rem 7rem;
+
+}
+
+/* Shoping Section Start */
+
+.shoping{
+    width: 96vw;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-section{
+    width: 61vw;
+}
+
+.img-section img{
+    width: 45rem;
+}
+
+
+.writing-section{
+    width: 30vw;
+    margin-right:10rem ;
+}
+.writing-section h5:hover{
+    color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+
+/* Shoping Section End */
+
+/* Promo Section Start  */
+
+.promo{
+    width: 96vw;
+    height: 70vh;
+    
+    display: flex;
+    
+}
+
+.promo h1{
+    color: #fff;
+}
+
+ .promo-2{
+   
+    margin-left: 26rem;
+
+}
+
+
+.promo-img{
+    width: 36rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.promo .text{
+    position: relative;
+    z-index: 1;
+    top: 10rem;
+    left: 13rem;
+}
+
+/* Promo Section End  */
+
+/* New Comming Soon */
